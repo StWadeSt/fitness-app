@@ -29,7 +29,7 @@ const HorizontalScrollBar = ({data, bodyPart, setBodyPart}) => {
   };
 
   return (
-    <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow} className="scroll-menu">
+    <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow} style={{ overflowX : 'none'}}>
       {
         data.map((item) => 
         (<Box 

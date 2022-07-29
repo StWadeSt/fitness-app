@@ -65,16 +65,23 @@ const SearchExercises = ({setExercises, setBodyPart, bodyPart}) => {
           type="text"
         />
 
-        <Button className='search-btn'
-          onClick={(e) => handleSearch()}
-          sx={{ bgcolor: '#FF2625', 
-          color: '#fff', 
-          textTransform: 'none', 
-          width: { lg: '173px', 
-          xs: '80px' }, height: '56px', 
-          position: 'absolute', 
-          right: '0px', 
-          fontSize: { lg: '20px', xs: '14px' } }} 
+        <Button className="search-btn" 
+          sx={{ 
+                bgcolor: '#FF2625', 
+                color: '#fff', 
+                textTransform: 'none', 
+                width: { 
+                        lg: '173px', 
+                        xs: '80px' 
+                      }, 
+                height: '56px', 
+                position: 'absolute', 
+                right: '0px', 
+                fontSize: { 
+                            lg: '20px', 
+                            xs: '14px' 
+                          } }} 
+                onClick={handleSearch}
         >
           Search
         </Button>
