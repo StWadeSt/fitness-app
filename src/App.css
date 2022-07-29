@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
   
   }
+
+  .scroll-menu{
+    overflow-y: hidden !important;
+  }
   
   ::-webkit-scrollbar {
     width: 0px;
@@ -89,7 +93,7 @@ body {
   
   .exercise-card:hover,
   .bodyPart-card:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1) !important;
   }
   
   .search-btn:hover {
