@@ -37,7 +37,7 @@ const ExerciseCard = ({index, exercise}) => {
       className='exercise-name'
         ml= '21px' 
         color='black' 
-        frontWeight='bold'
+        fontWeight='bold'
         mt='11px'
         pb='10px'
         textTransform='capitalize'
