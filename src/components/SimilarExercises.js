@@ -1,10 +1,8 @@
 import { Box, Stack, Typography } from '@mui/material'
-import React, { useContext } from 'react'
-import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
+import React from 'react'
 
 import HorizontalScrollBar from './HorizontalScrollBar';
 import Loader from './Loader';
-import ExerciseCard from './ExerciseCard';
 
 
 const SimilarExercises = ({targetMuscleExercises, equipmentExercises}) => {
